@@ -13,6 +13,7 @@ Listar os elementos resultantes do projeto de testes.
 2 - Requisitos a Testar
 Esta seção contém os casos de testes e requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto. Como, em geral, os requisitos a testar são obtidos diretamente dos requisitos do sistema, esta seção é concebida como opcional. Assim sendo, sempre que novos requisitos a testar, que não constem como requisitos do sistema, forem identificados ou, simplesmente, por questões de organização e clareza, esta seção deve ser preenchida. Dependendo das informações disponíveis, essa seção pode começar a ser preenchida já nas primeiras iterações do ciclo de vida a partir do documento de requisitos.
 
+--
 
 3 - Tipos de teste
 Esta seção contém os tipos de testes escolhidos para cada iteração do projeto. Com base no guia de testes, o tipo de teste que melhor se adequa aos requisitos, tipo da aplicação e seus recursos disponíveis é:
@@ -36,6 +37,7 @@ Técnica:	(x) manual	( ) automática
 Estágio do teste	Integração (x)	Sistema ( )	Unidade ( )	Aceitação ( )
 Abordagem do teste	Caixa branca ( )	Caixa preta (x)
 
+--
 
 4 - Recursos
 Esta seção descreve os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários (caso sejam usadas) para execução dos testes que devem ser descritos nas subseções que seguem.
@@ -52,6 +54,7 @@ Microsoft Edge - Versão 126.0.2592.81 (x64 bits)  – Passou
 
 4.2 - Ferramenta de teste
 
+--
 
 5 - Cronograma
 Tipo de teste - Data de início / Data de término
