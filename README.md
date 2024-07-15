@@ -21,21 +21,26 @@ Esta seção contém os tipos de testes escolhidos para cada iteração do proje
 Teste de interface de usuário;
 
 Entre outros:
+
 3.1 - Métodos da Classe
 Para este teste de funcionalidade. Deve-se verificar se cada classe retorna o esperado. Se possível usar teste automatizado.
 
-Objetivo	descreva aqui o objetivo
-Técnica:	(x) manual	(x) automática
-Estágio do teste	Integração ( )	Sistema ( )	Unidade (x)	Aceitação ( )
-Abordagem do teste	Caixa branca ( )	Caixa preta (x)
+Técnica: (x) manual  ( ) automática
+
+Estágio do teste: Unidade (x)  Integração ( )  Sistema ( )  Aceitação ( ) 
+
+Abordagem do teste: Caixa branca ( )  Caixa preta (x)
+
+--
 
 3.2 - Integração dos Componentes
 Para teste de funcionalidade. Deve-se verificar se as classes e métodos conseguem fazer a integração entre elas para uma sequência de ações do programa. Se possível usar teste automatizado.
 
-Objetivo	descreva aqui o objetivo
-Técnica:	(x) manual	( ) automática
-Estágio do teste	Integração (x)	Sistema ( )	Unidade ( )	Aceitação ( )
-Abordagem do teste	Caixa branca ( )	Caixa preta (x)
+Técnica: (x) manual  ( ) automática
+
+Estágio do teste: Unidade (x)  Integração ( )  Sistema ( )  Aceitação ( ) 
+
+Abordagem do teste: Caixa branca ( )  Caixa preta (x) 
 
 --
 
@@ -43,23 +48,35 @@ Abordagem do teste	Caixa branca ( )	Caixa preta (x)
 Esta seção descreve os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários (caso sejam usadas) para execução dos testes que devem ser descritos nas subseções que seguem.
 
 4.1 - Ambiente de teste - Software e Hardware
+
 Equipamento: HP Laptop – UQ05LO9A
+
 Plataforma: Web para Desktop
+
 Sistema Operacional: Windows 10 Home 22H2
 
+
 Navegador: 
+
 Google Chrome - Versão 125.0.6422.176 (x64 bits) – Passou
+
 Mozila Firefox - Versão 127.0.1 (x64 bits)  – Passou
+
 Microsoft Edge - Versão 126.0.2592.81 (x64 bits)  – Passou
+
 
 4.2 - Ferramenta de teste
 
 --
 
 ### 5 - Cronograma
-Tipo de teste - Data de início / Data de término
-planejar teste		dd/mm/aaaa       dd/mm/aaaa
-projetar teste		dd/mm/aaaa       dd/mm/aaaa
-implementar teste dd/mm/aaaa       dd/mm/aaaa
-executar teste		dd/mm/aaaa       dd/mm/aaaa
-avaliar teste		  dd/mm/aaaa       dd/mm/aaaa
+planejar teste		dd/mm/aaaa - dd/mm/aaaa
+
+projetar teste		dd/mm/aaaa - dd/mm/aaaa
+
+implementar teste dd/mm/aaaa - dd/mm/aaaa
+
+executar teste		dd/mm/aaaa - dd/mm/aaaa
+
+avaliar teste		  dd/mm/aaaa - dd/mm/aaaa
+
