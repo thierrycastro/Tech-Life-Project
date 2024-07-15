@@ -1,4 +1,4 @@
-1 - Introdução
+**1 - Introdução**
 Este documento descreve os requisitos a testar, os tipos de testes definidos, os recursos de hardware e software a serem empregados e o cronograma dos testes ao longo do projeto. As seções referentes aos requisitos, recursos e cronograma servem para permitir ao gerente do projeto acompanhar a evolução dos testes.
 
 Com esse documento, você pode:
