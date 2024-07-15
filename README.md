@@ -8,6 +8,7 @@ Recomendar e descrever estratégias de teste a serem empregadas.
 Identificar os recursos necessários e prover uma estimativa dos esforços de teste.
 Listar os elementos resultantes do projeto de testes.
 
+--
 
 2 - Requisitos a Testar
 Esta seção contém os casos de testes e requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto. Como, em geral, os requisitos a testar são obtidos diretamente dos requisitos do sistema, esta seção é concebida como opcional. Assim sendo, sempre que novos requisitos a testar, que não constem como requisitos do sistema, forem identificados ou, simplesmente, por questões de organização e clareza, esta seção deve ser preenchida. Dependendo das informações disponíveis, essa seção pode começar a ser preenchida já nas primeiras iterações do ciclo de vida a partir do documento de requisitos.
