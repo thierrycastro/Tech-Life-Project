@@ -1,82 +1,89 @@
-### 1 - Introdução
-Este documento descreve os requisitos a testar, os tipos de testes definidos, os recursos de hardware e software a serem empregados e o cronograma dos testes ao longo do projeto. As seções referentes aos requisitos, recursos e cronograma servem para permitir ao gerente do projeto acompanhar a evolução dos testes.
+Projeto: Tech Life
 
-Com esse documento, você pode:
-Identificar informações do projeto e os componentes de software que foram testados.
-Listar os Requisitos que foram testados.
-Recomendar e descrever estratégias de teste a serem empregadas.
-Identificar os recursos necessários e prover uma estimativa dos esforços de teste.
-Listar os elementos resultantes do projeto de testes.
+Nome do Caso de Teste: Validação da Página Inicial
 
---
+Descrição: Este caso de teste verifica a funcionalidade do sistema da página principal. O objetivo é garantir que o sistema permita que um usuário navegue de forma intuitiva e tenha acesso as informações da instituição através de dados e links de redes sociais.
 
-### 2 - Requisitos a Testar
-Esta seção contém os casos de testes e requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto. Como, em geral, os requisitos a testar são obtidos diretamente dos requisitos do sistema, esta seção é concebida como opcional. Assim sendo, sempre que novos requisitos a testar, que não constem como requisitos do sistema, forem identificados ou, simplesmente, por questões de organização e clareza, esta seção deve ser preenchida. Dependendo das informações disponíveis, essa seção pode começar a ser preenchida já nas primeiras iterações do ciclo de vida a partir do documento de requisitos.
+-----
 
---
+Pré-condições:
 
-### 3 - Tipos de teste
-Esta seção contém os tipos de testes escolhidos para cada iteração do projeto. Com base no guia de testes, o tipo de teste que melhor se adequa aos requisitos, tipo da aplicação e seus recursos disponíveis é:
+•	O ambiente de teste deve estar configurado e acessível.
 
-Teste de interface de usuário;
+•	O navegador deve estar instalado e funcionando corretamente.
 
-Entre outros:
+-----
 
-3.1 - Métodos da Classe
-Para este teste de funcionalidade. Deve-se verificar se cada classe retorna o esperado. Se possível usar teste automatizado.
+Passos para a execução do teste:
+1.	Abra o navegador e navegue até a página "https://techlifept.com/".
+2.	Verifique se o site é redirecionado para a página inicial.
+3.	Verifique se o Banner Carrossel funciona como esperado.
+4.	Verifique se os links das redes sociais funcionam como o esperado.
 
-Técnica: (x) manual  ( ) automática
+ -----
+ 
+Critérios de Aceitação:
 
-Estágio do teste: Unidade (x)  Integração ( )  Sistema ( )  Aceitação ( ) 
+•	O usuário deve ser acessar o site diretamente na página inicial.
 
-Abordagem do teste: Caixa branca ( )  Caixa preta (x)
+•	Na página inicial deve conter informações da Metodolodia da instituição.
 
---
+•	Na página inicial deve conter Testemunhos e links das redes sociais da instituição.
 
-3.2 - Integração dos Componentes
-Para teste de funcionalidade. Deve-se verificar se as classes e métodos conseguem fazer a integração entre elas para uma sequência de ações do programa. Se possível usar teste automatizado.
+•	A página deve ser responsiva.
 
-Técnica: (x) manual  ( ) automática
+-----
 
-Estágio do teste: Unidade (x)  Integração ( )  Sistema ( )  Aceitação ( ) 
+Resultados Esperados:
 
-Abordagem do teste: Caixa branca ( )  Caixa preta (x) 
+•	Passo 2: O usuário é redirecionado para a página inicial.
 
---
+•	Passo 3: O banner deverá alterar de imagem quando o usuário clicar nas setas laterais.
 
-### 4 - Recursos
-Esta seção descreve os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários (caso sejam usadas) para execução dos testes que devem ser descritos nas subseções que seguem.
+•	Passo 4: Os links das redes sociais deverão direcionar os usuários para as respectivas páginas.
 
-4.1 - Ambiente de teste - Software e Hardware
+-----
 
-Equipamento: HP Laptop – UQ05LO9A
+Notas Adicionais:
 
-Plataforma: Web para Desktop
+•	Verificar se a interface está conforme o design especificado.
 
-Sistema Operacional: Windows 10 Home 22H2
+•	Testar diferentes navegadores (Google Chrome, Mozilla Firefox) para garantir compatibilidade cross-browser.
 
+•	Documentar qualquer comportamento inesperado encontrado durante os testes.
 
-Navegador: 
+•	Tirar capturas de tela dos resultados esperados e reais para referência.
 
-Google Chrome - Versão 125.0.6422.176 (x64 bits) – Passou
+-----
 
-Mozila Firefox - Versão 127.0.1 (x64 bits)  – Passou
+Ambiente de Teste:
 
-Microsoft Edge - Versão 126.0.2592.81 (x64 bits)  – Passou
+•	Sistema Operacional: Windows 10.
 
+•	Navegadores: Google Chrome - Versão 125.0.6422.176 (x64 bits), Mozila Firefox - Versão 127.0.1 (x64 bits), Microsoft Edge - Versão 126.0.2592.81 (x64 bits).
 
-4.2 - Ferramenta de teste
+•	Versão da Aplicação: 1.0.0
 
---
+-----
 
-### 5 - Cronograma
-planejar teste		dd/mm/aaaa - dd/mm/aaaa
+Histórico de Alterações:
 
-projetar teste		dd/mm/aaaa - dd/mm/aaaa
+•	Data: 01/07/2024
 
-implementar teste dd/mm/aaaa - dd/mm/aaaa
+    o	Descrição: Caso de teste inicial criado.
+    
+    o	Autor: Thierry Castro
+    
+•	Data: 04/07/2024
 
-executar teste		dd/mm/aaaa - dd/mm/aaaa
+    o	Descrição: Adicionadas notas sobre compatibilidade cross-browser.
+    
+    o	Autor: Thierry Castro
 
-avaliar teste		  dd/mm/aaaa - dd/mm/aaaa
+-----
+    
+Anexos:
 
+•	Evidence_Report_Pagina_Inicial_PT.pdf
+
+•	Bug_Report_Pagina_Inicial_PT.pdf
